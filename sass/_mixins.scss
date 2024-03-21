@@ -6,22 +6,6 @@
     }
 }
 
-// @mixin responsive-less-than($screenType) {
-//     @if $screenType == mobile{
-//         @media only screen and (max-width:767px) {
-//             @content;
-//         }
-//     }
-// }
-
-// @mixin responsive-greater-than($screenType) {
-//     @if $screenType == mobile{
-//         @media only screen and (min-width:768px) {
-//             @content;
-//         }
-//     }
-// }
-
 @mixin responsive($screenType) {
     @if $screenType == tablet{
         @media only screen and (min-width:768px) and (max-width:1439px) {

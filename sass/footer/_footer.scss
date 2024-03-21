@@ -1,19 +1,15 @@
 footer {
+    height: 8vh;  
+    width: 40%;  
     position: fixed;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 30%;
     padding: 30px;
-    color: #fff;
+    color: white;
     .copyright {
       text-align: center;
     }
     a {
-        color: #1BB76E;
         text-decoration: none;
-        transition: .25s;
-        &:hover {
-            color: #FF5500;
-        }
     }
 }

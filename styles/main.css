@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  height: 15vh;
+  height: 17vh;
   display: flex;
   justify-content: flex-end;
   flex-flow: row;
@@ -214,23 +214,19 @@ header {
   }
 }
 footer {
+  height: 8vh;
+  width: 40%;
   position: fixed;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 30%;
   padding: 30px;
-  color: #fff;
+  color: white;
 }
 footer .copyright {
   text-align: center;
 }
 footer a {
-  color: #1BB76E;
   text-decoration: none;
-  transition: 0.25s;
-}
-footer a:hover {
-  color: #FF5500;
 }
 
 * {
@@ -243,43 +239,65 @@ body {
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
-  color: pink;
-  background: #232323;
-  background: #2980B9; /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .content {
   width: 100%;
-  height: 70vh;
+  height: 75vh;
   display: flex;
+  justify-content: center;
 }
 
 .content__detail {
-  width: 100%;
+  width: 70%;
   height: 60vh;
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 12%;
-  width: 100%;
+  padding-top: 10%;
 }
 .content__detail h1 {
   color: #162232;
   text-align: center;
 }
-.content__detail__info {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 768px;
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .content__detail h1 {
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    font-size: 40px;
+    line-height: 2.5rem;
+  }
 }
-.content__detail__info p {
-  color: #345086;
-  line-height: 1.8;
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  .content__detail h1 {
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 3rem;
+    color: #294968;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .content__detail h1 {
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 3rem;
+    color: #294968;
+  }
+}
+.content__detail .content__info {
+  width: 100%;
+}
+.content__detail .content__info p {
+  color: pink;
+  line-height: 3rem;
   text-align: center;
+  font-family: "Encode Sans Semi Expanded", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
 }
 
 /*# sourceMappingURL=main.css.map */

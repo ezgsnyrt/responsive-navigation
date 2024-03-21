@@ -1,6 +1,6 @@
 header {
     width:100%;
-    height: 15vh;
+    height: 17vh;
     display: flex;
     justify-content: flex-end;
     flex-flow: row;
@@ -48,7 +48,6 @@ header {
         color: fonts.$header_middle_colors;
     }
 }  
-
 
 .menu__toggle {
     @media only screen and (min-width:320px) and (max-width:767px) {
