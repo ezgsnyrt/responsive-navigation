@@ -1,0 +1,57 @@
+@use 'fonts';
+@use 'colors';
+@import 'icon';
+@import "../node_modules/normalize-scss/sass/normalize";
+@import 'mixins';
+@import 'header/header';
+@import 'footer/footer';
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    color: pink;
+    background: #232323;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.content{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+
+.content__detail{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12%;
+    width: 100%;
+    h1 {
+        color: #162232;
+        text-align: center;
+    }
+    &__info {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 768px;
+        p {
+            color: #345086;
+            line-height: 1.8;
+            text-align: center;
+        }
+    }
+}
+
