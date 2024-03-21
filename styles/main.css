@@ -292,12 +292,17 @@ body {
   width: 100%;
 }
 .content__detail .content__info p {
-  color: pink;
+  color: #AF77C8;
   line-height: 3rem;
   text-align: center;
   font-family: "Encode Sans Semi Expanded", sans-serif;
   font-weight: 400;
   font-size: 32px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .content__detail .content__info p {
+    font-size: 24px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
