@@ -40,26 +40,26 @@ body{
         text-align: center;
         @media only screen and (min-width:320px) and (max-width:767px){
             font-family:fonts.$header_font-family;
-            font-size: fonts.$title_small_font-size; 
-            line-height: fonts.$title_small_line-height; 
+            font-size: fonts.$title_small_font-size;
+            line-height: fonts.$title_small_line-height;
         }
-        
+
 
         @media only screen and (min-width:768px) and (max-width:1439px){
             font-family:fonts.$header_font-family;
-            font-weight: fonts.$title_middle_font-weight;  
-            font-size: fonts.$title_middle_font-size; 
-            line-height: fonts.$title_large_line-height; 
+            font-weight: fonts.$title_middle_font-weight;
+            font-size: fonts.$title_middle_font-size;
+            line-height: fonts.$title_large_line-height;
             color: colors.$middle_colors;
         }
-         
+
 
         @media only screen and (min-width:1440px){
             font-family:fonts.$header_font-family;
-            font-weight:fonts.$title_large_font-weight;  
-            font-size: fonts.$title_large_font-size; 
-            line-height: fonts.$title_large_line-height; 
-            color: colors.$middle_colors; 
+            font-weight:fonts.$title_large_font-weight;
+            font-size: fonts.$title_large_font-size;
+            line-height: fonts.$title_large_line-height;
+            color: colors.$middle_colors;
         }
     }
     .content__info {
@@ -69,7 +69,7 @@ body{
             line-height: fonts.$title_large_line-height;
             text-align: center;
             font-family: fonts.$header_font-family;
-            font-weight:fonts.$header_font-weight;  
+            font-weight:fonts.$header_font-weight;
             font-size: fonts.$general_font-size;
             @media only screen and (min-width:320px) and (max-width:767px){
             font-size:fonts.$header-small_font-size;
